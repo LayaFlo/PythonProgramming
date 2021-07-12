@@ -1,3 +1,4 @@
+#filtering file strings.txt
 handle = open("strings.txt", "r")
 content = handle.readlines()
 for i in content:
